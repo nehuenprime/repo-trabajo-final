@@ -42,5 +42,5 @@ span{
 }
 
 .h-index{
-    font-weight: bold;
+    text-transform: uppercase;
 }
