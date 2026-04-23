@@ -8,27 +8,40 @@
     <title>Boneo Creative Studio</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-success-subtle">
-    <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img class="logo-imagen rounded-circle" src="/img/logo-agencia.png" alt="logo de la agencia"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Nosotros</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
-        </li>
-    </div>
-    </div>
-</nav>
+    <header class="index-header position-relative" id="inicio">
+        <div class="position-absolute w-100 h-100 oscurecer-fondo z-1">
+            <nav class="navbar navbar-expand-lg bg-success-subtle position-fixed w-100">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html">
+                        <img class="logo-imagen rounded-circle" src="./img/logo-agencia.png" alt="HERBALIFE LOGO">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link text-black" aria-current="page" href="#inicio">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-black" href="#sobre-nosotros">Sobre Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-black" href="#productos">productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-black" href="#contacto">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+                <Section class="d-flex flex-column justify-content-center h-100 p-3 header-contenedor-inferior">
+                    <h1 class="text-white fw-bold text-center">La mejor agencia web de <span>Argentina!</span></h1>
+                    <p class="text-white fw-light text-center">Creamos sitios web modernos, rápidos y optimizados para ayudar a tu negocio a crecer. Diseño atractivo, desarrollo profesional y soluciones digitales a medida. Diseñamos experiencias digitales que convierten visitantes en clientes. Desarrollo web, branding y soluciones pensadas para hacer crecer tu marca.</p>
+                    <button class="py-2 mx-5 border-0 rounded a-btn"><a class="a-btn" href="/partial/proyectos.html" target="_blank">Ver Proyectos</a></button>
+                </Section>
+        </div>
     </header>
 
 
