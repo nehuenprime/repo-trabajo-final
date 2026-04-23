@@ -28,6 +28,7 @@ body{
 
 .contacto{
 padding:5rem 2rem;
+
 }
 
 .contacto .container{
@@ -38,6 +39,7 @@ margin:auto;
 .contacto h2{
 font-size:2.5rem;
 margin-bottom:1rem;
+margin-top: 15px;
 }
 
 .contacto p{
