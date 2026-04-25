@@ -4,41 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/proyect.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>Nuestros Proyectos</title>
 </head>
 <body>
-        <header class="index-header position-relative" id="inicio">
-        <div class="position-absolute w-100 h-100 oscurecer-fondo z-1">
-            <nav class="navbar navbar-expand-lg bg-success-subtle position-fixed w-100">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="./index.html">
-                        <img class="logo-imagen rounded-circle" src="/img/logo-agencia.png" alt="logo agencia">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link text-black" aria-current="page" href="/index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-black" href="/partial/nosotros.html">Sobre Nosotros</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-black" href="/partial/proyectos.html">Proyectos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-black" href="/partial/contacto.html">Contacto</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </header>
-        
+    <header>
+            <nav class="navbar navbar-expand-lg bg-success-subtle">
+        <div class="container-fluid">
+            <img class="logo-imagen rounded-circle" src="/img/logo-agencia.png" alt="logo agencia">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/partial/nosotros.html">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/partial/proyectos.html">Proyectos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/partial/contacto.html">Contacto</a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    </header>
 
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <main>
+        <section id="proyectos" class="proyectos-section">
+        <h2 class="text-center my-5 text-decoration-underline titulos-espaciados mb-5 " id="conocimientos">PROYECTOS</h2>
+        <p>Los proyectos mostrados son diseños/páginas webs de muestra, similares a los que vendimos en los ultimos años.</p>
+
+        <div class="d-flex flex-wrap justify-content-center gap-4 rounded my-5">
+
+            <a class="text-decoration-none agrandando" href="" target="_blank"><article class="card bg-dark " style="width: 18rem;">
+                <img src="/img/fondo-fulbo2.jpeg" class="card-img-top" alt="pelota de futbol card-img-top">
+                <section class="card-body">
+        <p class="card-text-proyect">Proyecto 1: Página de futbol</p>
+    </section>
+        </article></a>
+        <a class="text-decoration-none agrandando" href="" target="_blank"><article class="card bg-danger" style="width: 18rem;">
+                <img src="/img/pizza3.webp" class="card-img-top" alt="pizza card-img-top">
+                <section class="card-body">
+        <p class="card-text-proyect">Proyecto 2: Tienda de Pizzas</p>
+    </section>
+        </article></a>
+        <a class="text-decoration-none agrandando" href="" target="_blank"><article class="card bg-primary" style="width: 18rem;">
+                <img src="/img/auto2.webp" class="card-img-top" alt="auto card-img-top">
+                <section class="card-body">
+        <p class="card-text-proyect">Proyecto 3: concesionaria de autos</p>
+    </section>
+        </article></a>
+        <a class="text-decoration-none agrandando" href="" target="_blank"><article class="card bg-success" style="width: 18rem;">
+                <img src="/img/dia-naturaleza.webp" class="card-img-top" alt="naturaleza card-img-top">
+                <section class="card-body">
+        <p class="card-text-proyect">Proyecto 4: Cuidado de medioambiente</p>
+    </section>
+        </article></a>
+        <a class="text-decoration-none agrandando" href="" target="_blank"><article class="card bg-black" style="width: 18rem;">
+                <img src="/img/gato_negro_1_.webp" class="card-img-top" alt="gato negro card-img-top">
+                <section class="card-body">
+        <p class="card-text-proyect">Proyecto 5: Página de mascotas</p>
+    </section>
+        </article></a>
+
+    </div>
+    </section>
+    </main>
+
+    <footer class="footer-global">
+            <p>@Copyright - Todos los derechos reservados - 2026 </p>
+        </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
