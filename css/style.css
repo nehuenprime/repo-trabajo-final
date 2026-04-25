@@ -32,15 +32,24 @@ body{
 }
 
 .a-btn:hover{
-    color: #19945C;
+    color: #ADD8E6;
     font-size: 18px;
     transition: 0.3s;
 }
 
 span{
-    color: #19945C;
+    color: #ADD8E6;
 }
 
 .h-index{
     text-transform: uppercase;
+}
+
+.footer-global{
+    background-color: #777;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+    padding-bottom: 5px;
+    text-align: center;
 }
