@@ -1,0 +1,40 @@
+.nosotros-main{
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.presentacion{
+    padding: 0px 20px;
+}
+
+.presentacion-h{
+    text-align: center;
+}
+
+.lista-main{
+    text-align: center;
+}
+
+.valores{
+list-style:none;
+padding:0;
+text-align:center;
+}
+
+.valores li{
+margin:10px 0;
+}
+
+.valores li::before{
+content:"✓ ";
+font-weight:bold;
+}
+
+.valores li:hover{
+    color: gold;
+}
+
+img{
+    width: 100px;
+}
