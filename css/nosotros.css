@@ -38,3 +38,8 @@ font-weight:bold;
 img{
     width: 100px;
 }
+
+span{
+    background-color: #000;
+    padding: 3px;
+}
