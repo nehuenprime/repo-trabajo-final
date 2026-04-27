@@ -1,0 +1,48 @@
+$color-hover: gold;
+$color-negro: #000;
+
+.nosotros-main {
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.presentacion {
+    padding: 0 20px;
+}
+
+.presentacion-h {
+    text-align: center;
+}
+
+.lista-main {
+    text-align: center;
+}
+
+.valores {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+
+    li {
+        margin: 10px 0;
+
+        &::before {
+            content: "✓ ";
+            font-weight: bold;
+        }
+
+        &:hover {
+            color: $color-hover;
+        }
+    }
+}
+
+img {
+    width: 100px;
+}
+
+.studio {
+    background-color: $color-negro;
+    padding: 3px;
+}
