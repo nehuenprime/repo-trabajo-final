@@ -1,0 +1,45 @@
+$color-card: #CACFE3;
+$color-blanco: #fff;
+
+.proyectos-section {
+    padding: 0 20px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.main-card {
+    background-color: $color-card;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1.5rem;
+}
+
+.card-text-proyect {
+    color: $color-blanco;
+    text-decoration: none;
+    text-align: center;
+}
+
+.agrandando {
+    &:hover {
+        transform: scale(1.05);
+        transition: 0.5s;
+    }
+}
+
+.sacar-sub {
+    text-decoration: none;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+footer {
+    padding-top: 40px;
+}

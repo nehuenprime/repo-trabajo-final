@@ -1,45 +1,45 @@
-.nosotros-main{
-    padding-top: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
+@charset "UTF-8";
+.nosotros-main {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
-.presentacion{
-    padding: 0px 20px;
+.presentacion {
+  padding: 0 20px;
 }
 
-.presentacion-h{
-    text-align: center;
+.presentacion-h {
+  text-align: center;
 }
 
-.lista-main{
-    text-align: center;
+.lista-main {
+  text-align: center;
 }
 
-.valores{
-list-style:none;
-padding:0;
-text-align:center;
+.valores {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.valores li {
+  margin: 10px 0;
+}
+.valores li::before {
+  content: "✓ ";
+  font-weight: bold;
+}
+.valores li:hover {
+  color: gold;
 }
 
-.valores li{
-margin:10px 0;
+img {
+  width: 100px;
 }
 
-.valores li::before{
-content:"✓ ";
-font-weight:bold;
+.studio {
+  background-color: #000;
+  padding: 3px;
 }
 
-.valores li:hover{
-    color: gold;
-}
-
-img{
-    width: 100px;
-}
-
-.studio{
-    background-color: #000;
-    padding: 3px;
-}
+/*# sourceMappingURL=nosotross.css.map */

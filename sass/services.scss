@@ -1,0 +1,69 @@
+$color-card: #ADD8E6;
+$color-card-hover: #93d0e4;
+
+$btn-color: #2c9caf;
+$btn-outline-hover: #70bdca;
+$btn-shadow: #268391;
+$white: #ffffff;
+
+.index-main {
+    margin: 1rem 2rem;
+}
+
+.main-card {
+    background-color: $color-card;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+
+    &:hover {
+        background-color: $color-card-hover;
+        transform: scale(1.03);
+    }
+}
+
+.titulo-secciones {
+    text-align: center;
+}
+
+/* Botón */
+
+.buttons {
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: $btn-color;
+    transition: all 1000ms;
+    font-size: 10px;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid $btn-color;
+
+    &:hover {
+        color: $white;
+        transform: scale(1.1);
+        outline: 2px solid $btn-outline-hover;
+        box-shadow: 4px 5px 17px -4px $btn-shadow;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        left: -50px;
+        top: 0;
+        width: 0;
+        height: 100%;
+        background-color: $btn-color;
+        transform: skewX(45deg);
+        z-index: -1;
+        transition: width 1000ms;
+    }
+
+    &:hover::before {
+        width: 250%;
+    }
+}
