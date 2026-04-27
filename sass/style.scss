@@ -7,6 +7,22 @@ $color-footer: #777;
 $color-blanco: #fff;
 $color-negro: #000;
 
+%card-base {
+    padding: 1rem;
+    border-radius: .5rem;
+    margin: 1rem 0;
+}
+
+.main-card {
+    @extend %card-base;
+    background-color: #ADD8E6;
+}
+
+.proyecto-card {
+    @extend %card-base;
+    background-color: #CACFE3;
+}
+
 body {
     font-family: sans-serif;
     margin: 0;
@@ -61,4 +77,14 @@ span {
     padding: 20px;
     padding-bottom: 5px;
     text-align: center;
+}
+
+.buttons {
+    @include boton-base;
+    @include transicion(1s);
+
+    border: none;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
 }
