@@ -1,99 +1,90 @@
-body{
-    font-family: sans-serif;
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-    background-image: url(/img/tecno-fondoi.avif);
-    background-repeat: no-repeat; 
-    background-size: cover;       
-    background-position: center;
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(/img/tecno-fondoi.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.logo-imagen{
-    width: 4rem;
+.logo-imagen {
+  width: 4rem;
 }
 
-
-.oscurecer-fondo{
-    background-color: rgb(0 0 0 / 0.6);
+.oscurecer-fondo {
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
-.hero-content{
-    position:relative;
-    z-index:2;
+.hero-content {
+  position: relative;
+  z-index: 2;
 }
 
-.contacto{
-padding:5rem 2rem;
-
+.contacto {
+  padding: 5rem 2rem;
+}
+.contacto .container {
+  max-width: 700px;
+  margin: auto;
+}
+.contacto h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.contacto p {
+  margin-bottom: 2rem;
 }
 
-.contacto .container{
-max-width:700px;
-margin:auto;
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.contact-form button {
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  background: #48B5B0;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.contact-form button:hover {
+  transform: translateY(-3px);
 }
 
-.contacto h2{
-font-size:2.5rem;
-margin-bottom:1rem;
+.input-group {
+  display: flex;
+  flex-direction: column;
 }
-
-.contacto p{
-margin-bottom:2rem;
+.input-group label {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
 }
-
-.contact-form{
-display:flex;
-flex-direction:column;
-gap:1.5rem;
-}
-
-.input-group{
-display:flex;
-flex-direction:column;
-}
-
-.input-group label{
-margin-bottom:.5rem;
-font-weight:600;
-}
-
 .input-group input,
-.input-group textarea{
-padding:1rem;
-border:1px solid #ccc;
-border-radius:10px;
-outline:none;
-transition:.3s;
+.input-group textarea {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  transition: 0.3s;
 }
-
 .input-group input:focus,
-.input-group textarea:focus{
-border-color: #48B5B0;
-transform:scale(1.01);
+.input-group textarea:focus {
+  border-color: #48B5B0;
+  transform: scale(1.01);
 }
 
-.contact-form button{
-padding:1rem;
-border:none;
-border-radius:10px;
-background:#48B5B0; 
-color:white;
-font-weight:bold;
-cursor:pointer;
-transition:.3s;
+.footer-contact {
+  background-color: #777;
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+  padding-bottom: 5px;
+  text-align: center;
 }
 
-.contact-form button:hover{
-transform:translateY(-3px);
-}
-
-
-.footer-contact{
-    background-color: #777;
-    color: #fff;
-    margin: 0;
-    padding: 20px;
-    padding-bottom: 5px;
-    text-align: center;
-}
+/*# sourceMappingURL=contacts.css.map */
